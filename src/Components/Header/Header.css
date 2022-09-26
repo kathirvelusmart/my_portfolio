@@ -1,0 +1,49 @@
+.header {
+    display: block;
+    max-width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.menu {
+    font-family: "Google Sans Regular";
+}
+
+.header .menu li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header .menu li a {
+    display: block;
+    padding: 20px 20px;
+}
+
+@media(min-width:768px) {
+    .header li {
+        float: left;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header .menu {
+        justify-content: end;
+    }
+}
+
+@media(max-width:960px) and (min-width:768px) {
+    .header {
+        font-size: 12px;
+    }
+}
