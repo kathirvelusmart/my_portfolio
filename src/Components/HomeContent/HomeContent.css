@@ -1,6 +1,9 @@
 .greeting-text {
-    font-size: 37px;
+    font-size: 33px;
     margin: top 80px;
     line-height: 1.1;
-    font-family: "Google Sans Bold";
+}
+
+.greeting-text a:hover {
+    font-size: 45px;
 }

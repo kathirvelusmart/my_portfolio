@@ -17,7 +17,7 @@ export default function HomeContent() {
                 <h5 style={{ marginTop: 0, marginBottom: 30 }}>
                     I design and code beautifully simple things, and I love what I do.
                 </h5>
-                <h6 style={{ marginTop: 0, marginBottom: 20 }}>
+                <h6 style={{ marginTop: 0, marginBottom: 40 }}>
                     A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact
                 </h6>
                 <span style={{ marginRight: 16 }}>

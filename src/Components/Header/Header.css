@@ -21,6 +21,10 @@
     font-size: 18px;
 }
 
+.header .menu li a:hover {
+    font-size: 21px;
+}
+
 .header .menu li a {
     display: block;
     padding: 20px 20px;
