@@ -21,32 +21,32 @@ export default function HomeContent() {
                     A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact
                 </h6>
                 <span style={{ marginRight: 16 }}>
-                    <a href="https://github.com/kathirvelusmart">
+                    <a href="https://github.com/kathirvelusmart" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={["fab", "github"]} />
                     </a>
                 </span>
                 <span style={{ marginRight: 16 }}>
-                    <a href="https://www.linkedin.com/in/kathirvelu-p-8080a9174/">
+                    <a href="https://www.linkedin.com/in/kathirvelu-p-8080a9174/" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon="fab fa-linkedin-in" />
                     </a>
                 </span>
                 <span style={{ marginRight: 16 }}>
-                    <a href="https://www.facebook.com/">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon="fab fa-facebook" />
                     </a>
                 </span>
                 <span style={{ marginRight: 16 }}>
-                    <a href="https://twitter.com/" >
+                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon="fab fa-twitter" />
                     </a>
                 </span>
                 <span style={{ marginRight: 16 }}>
-                    <a href="https://www.instagram.com/accounts/emailsignup/">
+                    <a href="https://www.instagram.com/accounts/emailsignup/" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon="fab fa-instagram" />
                     </a>
                 </span>
                 <span style={{ marginRight: 16 }}>
-                    <a href="https://www.google.com/" >
+                    <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon="fab fa-google" />
                     </a>
                 </span>
