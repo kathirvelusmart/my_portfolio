@@ -1,8 +1,11 @@
 import React from 'react'
+import ProjectImage from './ProjectImage/ProjectImage'
 
 function Projects() {
     return (
-        <div>Projects</div>
+        <div>
+            <ProjectImage />
+        </div>
     )
 }
 
