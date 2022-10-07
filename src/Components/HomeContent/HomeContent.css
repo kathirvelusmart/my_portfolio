@@ -1,9 +1,33 @@
 .greeting-text {
-    font-size: 33px;
     margin: top 80px;
     line-height: 1.1;
 }
 
-.greeting-text a:hover {
-    font-size: 45px;
+.name {
+    font-size: 72px;
+}
+
+.socialMediaIcons {
+    font-size: 33px;
+}
+
+.title-heading {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: darkslateblue;
+    font-size: 50px;
+}
+
+.firstDescription {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.secondDescription {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 21px;
 }

@@ -5,7 +5,8 @@ import './Content.css';
 
 export default function Content() {
     return (
-        <div className="homeContent">
+        <div className="content">
+           
             <HomeContent />
             <HomeImage />
         </div>

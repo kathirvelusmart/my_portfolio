@@ -1,4 +1,15 @@
 body {
   margin: 0;
   background-color: lavender;
+  font-family: "Google Sans Regular";
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-left: 3px solid #c9cacc;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #051b46;
+  border-radius: 10px;
 }

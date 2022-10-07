@@ -1,10 +1,13 @@
 import React from 'react'
-import ProjectImage from './ProjectImage/ProjectImage'
+import ProjectContent from './ProjectContent/ProjectContent'
+import ProjectImage from './ProjectImage/ProjectImage';
+import './Projects.css';
 
 function Projects() {
     return (
-        <div>
+        <div className="content">
             <ProjectImage />
+            <ProjectContent />
         </div>
     )
 }
