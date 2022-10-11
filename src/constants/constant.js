@@ -42,10 +42,6 @@ export const menuList = [
         navigateTo: 'projects',
     },
     {
-        menuName: 'Open source',
-        navigateTo: 'openSource',
-    },
-    {
         menuName: 'Contact me',
         navigateTo: 'contact',
     }
@@ -152,4 +148,108 @@ export const certificateCardsList = [
         certificateLink: 'https://www.udemy.com/certificate/UC-09356b45-e7f0-42b9-a878-11934d0594d8/',
         courseContent: 'Learn Java programming for absolute beginners through examples! Become a Java Developer and obtain core Java skills!'
     },
+]
+export const ProjectsList = [
+    {
+        projectHeader: "Brunei Stock Exchange [BNX]",
+        projectDuration: "Sep 2021 - Jun 2022",
+        role: "UI Developer",
+        projectDescription: "Brunei Stock Exchange (BNX) offers state-of-the-art trading technology and online electronic brokerage services to active individual and institutional traders in Brunei.Brunei Stock Exchange is a fully customizable market monitoring, charting, and analysis tool that help clients to identify and act instantly on trading opportunities.",
+        devSkillsIconsList: [
+            {
+                icon: "fab fa-html5",
+                className: 'html',
+            },
+            {
+                icon: "fab fa-css3",
+                className: "css",
+            },
+            {
+                icon: "fab fa-node-js",
+                className: "javascript",
+            },
+            {
+                icon: "fab fa-node",
+                className: "node",
+            },
+            {
+                icon: "fab fa-git",
+                className: "git",
+            },
+            {
+                icon: "fab fa-angular",
+                className: "angular",
+            },
+        ]
+    },
+    {
+        projectHeader: "Digitial Examination [DEX]",
+        projectDuration: "July 22 - Present",
+        role: "UI Developer",
+        projectDescription: "DEX-Scalability offers an high-end exam engine portal with enabled security and advanced features and Design.It has multiple micro-services supporting two web accessible applications.",
+        devSkillsIconsList: [
+            {
+                icon: "fab fa-html5",
+                className: 'html',
+            },
+            {
+                icon: "fab fa-css3",
+                className: "css",
+            },
+            {
+                icon: "fab fa-node-js",
+                className: "javascript",
+            },
+            {
+                icon: "fab fa-git",
+                className: "git",
+            },
+            {
+                icon: "fab fa-angular",
+                className: "angular",
+            },
+        ]
+    },
+]
+export const ProjectIconsList = [
+    {
+        icon: "fab fa-html5",
+        className: 'html',
+    },
+    {
+        icon: "fab fa-css3",
+        className: "css",
+    },
+    {
+        icon: "fab fa-node-js",
+        className: "javascript",
+    },
+    {
+        icon: "fab fa-node",
+        className: "node",
+    },
+    {
+        icon: "fab fa-java",
+        className: "java",
+    },
+    {
+        icon: "fab fa-git",
+        className: "git",
+    },
+    {
+        icon: "fab fa-angular",
+        className: "angular",
+    },
+    {
+        icon: "fab fa-react",
+        className: "react",
+    },
+    {
+        icon: 'fab fa-npm',
+        className: 'npm',
+    },
+    {
+        icon: 'fab fa-sass',
+        className: 'sass',
+    }
 ]

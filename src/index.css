@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 body {
   margin: 0;
   background-color: lavender;
-  font-family: "Google Sans Regular";
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -10,6 +12,6 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #051b46;
+  background-color: #3b3b3b;
   border-radius: 10px;
 }

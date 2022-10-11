@@ -24,9 +24,6 @@ function ExperienceContent() {
                 {experienceContent}
             </div>
             <div className="skillsContent">
-                {/* <h2 className="certificateTitle">
-                    Technologies
-                </h2> */}
                 <div className='skillsList'>
                     {FontAwesomeIconList.devSkillsIconsList.map((icon, index) =>
                     (

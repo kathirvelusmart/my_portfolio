@@ -1,6 +1,11 @@
 .contentTitle {
     font-size: 39px;
     font-weight: bold;
+    color: #594f95;
+}
+
+.contentTitle span {
+    font-size: 29px;
 }
 
 .github {
@@ -113,4 +118,42 @@
 
 .react:hover {
     transform: scale(1.3);
+}
+
+.sass {
+    color: #a226c5
+}
+
+.sass:hover {
+    transform: scale(1.3);
+}
+
+.npm {
+    color: #921719
+}
+
+.npm:hover {
+    transform: scale(1.3);
+}
+
+/* Button css */
+
+.commonBtn {
+    border-radius: 25px !important;
+    background-color: #ffffff;
+    color: #594f95;
+    border-color: #594f95;
+}
+
+.commonBtn:hover {
+    background-color: #594f95;
+    color: #ffffff;
+    border-color: #594f95;
+}
+
+.signupBtn {
+    border-radius: 25px !important;
+    background-color: #594f95;
+    color: #ffffff;
+    border-color: #594f95;
 }

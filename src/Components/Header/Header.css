@@ -19,7 +19,7 @@
 }
 
 .header .menu li a:hover {
-    font-size: 21px;
+    transform: scale(1.3)
 }
 
 .header .menu li a {

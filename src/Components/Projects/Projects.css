@@ -1,6 +1,10 @@
-.content {
-    width: 90%;
+.projectContent {
+    width: 78%;
     display: flex;
     padding: 20px 10px;
     margin: 0 auto;
+}
+
+.accordion {
+    margin: 21px 36px;
 }
