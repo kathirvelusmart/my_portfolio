@@ -15,7 +15,8 @@ function LoginForm() {
         setUserLoginData({ ...userLoginData, [event.target.name]: event.target.value });
     }
     const navigateToHomePage = (event) => {
-        navigate('/home', { replace: true })
+        // navigate('/home', { state: { isLoggedIn: true } })
+        navigate('/home', { state: { isLoggedIn: true } })
     }
     const loginUser = (event) => {
         event.preventDefault();
