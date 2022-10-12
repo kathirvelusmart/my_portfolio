@@ -15,8 +15,7 @@ function LoginForm() {
         setUserLoginData({ ...userLoginData, [event.target.name]: event.target.value });
     }
     const navigateToHomePage = (event) => {
-        // navigate('/home', { state: { isLoggedIn: true } })
-        navigate('/home', { state: { isLoggedIn: true } })
+        navigate('/home', { replace: true });
     }
     const loginUser = (event) => {
         event.preventDefault();
@@ -28,7 +27,7 @@ function LoginForm() {
             navigateToHomePage();
         }).catch((error) => {
             console.log(error)
-            alert(error.message)
+            alert('Please enter valid credentials')
         })
     }
     return (
