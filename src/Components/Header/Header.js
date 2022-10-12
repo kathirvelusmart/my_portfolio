@@ -12,7 +12,7 @@ export default function Header() {
                 <HeaderLogo />
                 <MenuList />
                 <NavLink end to={'/'}>
-                    <Button className="signupBtn">Sign up</Button>
+                    <Button className="commonButton">Log out</Button>
                 </NavLink>
             </header>
         </div>
