@@ -1,7 +1,7 @@
 import React from 'react';
 import './EducationCertificates.css';
 import { certificateCardsList } from '../../../constants/constant';
-import CardComponent from '../../../CardComponent/CardComponent'
+import CardComponent from '../../CardComponent/CardComponent';
 
 function EducationCertificates() {
     return (

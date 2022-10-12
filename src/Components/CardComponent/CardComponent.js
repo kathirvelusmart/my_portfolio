@@ -2,7 +2,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import './CardComponent.css';
-import { openInNewTab } from '../CommonFunctions';
+import { openInNewTab } from '../../CommonFunctions';
 
 function CardComponent({ cardDetails }) {
     return (

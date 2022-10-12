@@ -6,7 +6,7 @@ import { menuList } from '../../constants/constant';
 import { activeMenuStyle } from '../../constants/constant';
 import { Button } from 'react-bootstrap';
 
-let isSignUpPage = false;
+let isSignUpPage = true;
 const navigateToSignUp = () => {
     isSignUpPage = !isSignUpPage;
 }
@@ -16,7 +16,7 @@ export default function Header() {
         <div>
             <header className="header">
                 <HeaderLogo />
-                <ul className="menu" style={{ marginLeft: '20%' }}>
+                {isSignUpPage && <ul className="menu" style={{ marginLeft: '20%' }}>
                     {menuList.map((menu, index) =>
                     (
                         <li key={index}>
@@ -26,8 +26,8 @@ export default function Header() {
                         </li>
                     )
                     )}
-                </ul>
-                <NavLink end to={'signup'}>
+                </ul>}
+                <NavLink end to={'/'}>
                     <Button onClick={navigateToSignUp} className="signupBtn">Sign up</Button>
                 </NavLink>
             </header>

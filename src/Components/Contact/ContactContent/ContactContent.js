@@ -1,5 +1,5 @@
 import React from 'react';
-import SocialMediaComponent from '../../../SocialMediaComponent/SocialMediaComponent';
+import SocialMediaComponent from '../../SocialMediaComponent/SocialMediaComponent';
 import './ContactContent.css';
 
 function ContactContent() {

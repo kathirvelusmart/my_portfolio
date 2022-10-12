@@ -1,5 +1,5 @@
 import React from 'react';
-import { FontAwesomeIconList } from '../constants/constant';
+import { FontAwesomeIconList } from '../../constants/constant';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './SocialMediaComponent.css';
 

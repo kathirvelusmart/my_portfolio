@@ -27,7 +27,7 @@ export const activeMenuStyle = {
 export const menuList = [
     {
         menuName: 'Home',
-        navigateTo: '/',
+        navigateTo: 'home',
     },
     {
         menuName: 'Education',
@@ -74,6 +74,23 @@ export const FontAwesomeIconList = {
             icon: "fab fa-instagram",
             link: "https://www.instagram.com/accounts/emailsignup/",
             className: "instagram",
+        },
+        {
+            icon: "fab fa-google",
+            link: "https://www.google.com/",
+            className: "google",
+        }
+    ],
+    signupIcons: [
+        {
+            icon: "fab fa-facebook",
+            link: "https://www.facebook.com/",
+            className: "facebook",
+        },
+        {
+            icon: "fab fa-linkedin-in",
+            link: "https://www.linkedin.com/in/kathirvelu-p-8080a9174/",
+            className: "linkedIn",
         },
         {
             icon: "fab fa-google",
